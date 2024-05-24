@@ -1,3 +1,4 @@
+import React from "react";
 import Char from "./Char";
 import "../styles/output.scss"
 import { useEffect, useRef } from "react";

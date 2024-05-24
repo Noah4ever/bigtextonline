@@ -1,3 +1,4 @@
+import React from "react";
 import "../styles/char.scss"
 
 export default function Char({char, index}:{char: string, index: number}){

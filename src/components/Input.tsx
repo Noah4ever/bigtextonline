@@ -1,3 +1,4 @@
+import React from "react";
 import "../styles/input.scss"
 
 export default function Input({inputText, setInputText}:{inputText: string, setInputText: any}){
