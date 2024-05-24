@@ -1,0 +1,14 @@
+.input-container{
+    display: flex;
+    flex-direction: row;
+    place-content: center;
+    input{
+        padding: 0.5rem 1rem;
+        margin: 1rem;
+        font-family: 'Courier New', Courier, monospace;
+        font-size: 1.25rem;
+        border: 1px solid rgba(0, 0, 0, 0.275);
+        border-bottom: 2px solid #526163;
+        border-radius: 2px;
+    }
+}

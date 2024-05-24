@@ -1,0 +1,7 @@
+.char-container{
+    border-radius: 5px;
+    line-height: normal;
+    &.special{
+        color: var(--special-color);
+    }
+}
