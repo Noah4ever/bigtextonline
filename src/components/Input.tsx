@@ -5,9 +5,9 @@ export default function Input({inputText, setInputText}:{inputText: string, setI
 
     return (
         <div className="input-container">
-            <input type="text" defaultValue={inputText} onChange={(evt: React.ChangeEvent<HTMLInputElement>) => {
+            <textarea defaultValue={inputText} id="input" onChange={(evt: React.ChangeEvent<HTMLTextAreaElement>) => {
                 setInputText(evt.currentTarget.value);
-            }}/>
+            }}></textarea> 
         </div>
     )
 }

@@ -1,9 +1,9 @@
 .output-container{
     display: flex;
-    flex-direction: row;
-    place-content: center;
-    .char-list{
-        margin-top: 3rem;
+    flex-direction: column;
+    place-items: center;
+    .char-line{
+        margin-top: 1rem;
         display: flex;
         flex-direction: row;
         place-content: center;
